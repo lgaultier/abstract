@@ -1,0 +1,16 @@
+ON THE JOINT USE OF HIGH RESOLUTION TRACER IMAGES AND ALTIMETRIC DATA FOR THE CONTROL OF OCEAN CIRCULATIONS
+
+Lucile Gaultier, Jacques Verron, Pierre Brasseur, Jean-Michel Brankart
+
+LEGI/CNRS, Grenoble, France
+
+Over the past two decades, altimetric satellites unprecedently observed turbulent features of ocean dynamics at the mesoscale. High resolution sensors of tracers such as the Sea Surface Temperature or the Ocean Color reveal even smaller structures at the submesoscale, which are not seen by altimetry. The role of the submesoscale in the ocean may be very important for the dynamic at larger scales. Therefore, we must benefit from the two types of observations (mesoscale dynamic and submesoscale tracer image) to refine the estimation of the ocean circulation.
+
+The goal of this study is to explore the feasibility of using tracer information at the submesoscales to complement the control of ocean dynamic fields that emerge from altimeter data analysis at larger scales. To do so, an image data assimilation strategy is developed in which a cost-function is built that minimizes the misfits between image of submesoscale flow structure and tracer images. In the present work, we have chosen as an image of submesoscale flow structure the Finite-Size Lyapunov Exponents (FSLE). The choice of FSLE as a proxy for tracers is motivated by d'Ovidio et al (2004), where similar patterns between tracers and FSLE images are evidenced. 
+
+A prerequisite to the study is that the relation between the ocean dynamics and FSLE can be inverted, in other words that the submesoscale information transmitted through the intermediate FSLE proxy is effective in controlling the ocean system. This assumption has been successfully tested on several regional pieces of the ocean. Using a strategy similar to the one used in Data Assimilation, the sensitivity of FSLE horizontal patterns to velocity errors is investigated. To do so, a Gaussian velocity error field is created using fifteen years of altimetric data. A cost function is then defined to measure the misfit between the FSLE computed using velocities with errors and the FSLE derived from a 'true' (error free) velocity. 
+It is found that a global minimum can be identified in the cost function proving that the inversion of FSLE is feasible. The next step is the inversion of submesoscale tracer information to correct a mesoscale altimetric field using real observation. The ocean dynamical variable to be corrected is the mesoscale altimetric velocity field using a high resolution tracer image. The strategy is similar to the one used to invert FSLE. The cost function measures the misfit between the FSLE derived from the altimetric velocity and the high resolution tracer image. Several test cases have been studied and demonstrating the success of the inversion of submesoscale tracer information to correct a mesoscale altimetric velocity field.
+
+These results show the feasibility of assimilating tracer submesoscales into ocean models for the control of mesoscale dynamics and larger scales as deduced from altimetry and therefore the benefit of the joint use of tracer image and altimetric data for the control of ocean circulations.
+
+
