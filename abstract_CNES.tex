@@ -1,0 +1,23 @@
+\include{header}
+\title{Utilisation conjointe d'images traceur haute résolution et des données altimétriques pour le contrôle de la circulation océanique}
+\author{L. Gaultier, J. Verron, J-M Brankart, P.Brasseur}
+\title{Inversion des images traceurs haute-résolution\hspace{4cm} pour le contrôle de la dynamique à plus large échelle \hspace{4cm} provenant de l'altimétrie}
+
+%\subtitle{\vspace{1.5em} \textbf{A Data Assimilation strategy}}
+\author{Lucile Gaultier, Jacques Verron, Pierre Brasseur, Jean-Michel Brankart}
+
+
+\begin{document}
+\maketitle
+Depuis une vingtaine d'années, les satellites altimétriques ont permis l'observation des structures turbulentes à mésoéchelle. 
+Les observations spatiales des traceurs, comme la température de surface de l'océan (SST) ou la couleur de l'océan, montrent des structures encore plus petites, à sous-mésoéchelle, qui ne peuvent être détectées par les satellites altimétriques. Il est donc intéressant d'utiliser conjointement ces deux types d'observations (dynamique à mésoéchelle et image traceur à sous-mésoéchelle) pour améliorer l'estimation de la circulation océanique. 
+
+L'objectif de cette étude est alors d'explorer la possibilité d'utiliser les informations dynamiques contenues dans les images traceur haute résolution, pour compléter l'estimation de la dynamique océanique de surface effectuée par les satellites altimétriques.  
+
+Pour ce faire, la stratégie choisie est similaire à celles de l'assimilation de données. On mesure la distance entre une image représentant les courants de surface et l'image traceur grâce à une fonction coût.
+On cherche alors la vitesse qui minimise la fonction coût afin de trouver une solution optimale à notre problème. Cette vitesse constitue le meilleur compromis entre l'observation dynamique et l'image traceur.
+
+Cette méthode a été testée avec succès sur plusieurs cas test d'observations spatiales. L'étude d'inversion sur des images synthétiques provenant de modèles haute résolution a permis de valider la méthode, mais aussi de montrer les limites de cette méthode.
+
+
+\end{document}
