@@ -5,9 +5,9 @@ Utilisation conjointe d'images traceur haute résolution et des données altimétri
 Depuis une vingtaine d'années, les satellites altimétriques ont permis l'observation des structures turbulentes à mésoéchelle. 
 Les observations spatiales des traceurs, comme la température de surface de l'océan (SST) ou la couleur de l'océan, montrent des structures encore plus petites, à sous-mésoéchelle, qui ne peuvent être détectées par les satellites altimétriques. Il est donc intéressant d'utiliser conjointement ces deux types d'observations (dynamique à mésoéchelle et image traceur à sous-mésoéchelle) pour améliorer l'estimation de la circulation océanique. 
 
-L'objectif de cette étude est alors d'explorer la possibilité d'utiliser les informations dynamiques contenues dans les images traceur haute résolution, pour compléter l'estimation de la dynamique océanique de surface effectuée par les satellites altimétriques.  
+L'objectif de notre étude est d'explorer la possibilité d'utiliser les informations dynamiques contenues dans les images traceur haute résolution, pour compléter l'estimation de la dynamique océanique de surface effectuée par les satellites altimétriques.  
 
-Dans cette présentation, on s'intéressera la méthode d'inversion, similaire à celles utilisées en assimilation de donnée. On mesure la distance entre une image représentant les courants de surface et l'image traceur grâce à une fonction coût. On cherche alors la vitesse qui minimise la fonction coût afin de trouver une solution optimale à notre problème.  
+Dans cette présentation, on s'intéressera à la méthode d'inversion, similaire à celles utilisées en assimilation de donnée. On mesure la distance entre une image représentant les courants de surface et l'image traceur grâce à une fonction coût. On cherche alors la vitesse qui minimise la fonction coût afin de trouver une solution optimale à notre problème.  
 On étudiera la faisabilité de l'inversion grâce à un cas test d'observation spatiale, puis on utilisera des images synthétiques provenant de modèles haute résolution pour regarder la validité de la méthode. 
 
 
