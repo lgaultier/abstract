@@ -1,0 +1,10 @@
+Over the past two decades, altimetric satellites observed turbulent features of the ocean dynamics at the mesoscale.
+High resolutio sensors of tracers such as the Sea Surface Temperature and the Ocean Color reveal even smaller structures at the submesoscale, which are not seen by altimetry. Therefore, we must benefit from the two types of observations to refine the estimation of the ocean circulation.
+
+The goal of this study is to explore the feasibility of using tracer information at the submesoscales to complement the control of ocean dynamic fields that emerge from altimeter data analysis at larger scales.
+
+In this talk, the inversion is presented, method similar to the one used in data assimilation. Using a cost function, the distance between an image of submesoscale flow structure  and tracer images is measured and minimized.
+
+Then the feasiblilty of the inversion is demonstrated using real data. The success of the inversion of submesoscale tracer observation to correct a mesoscale altimetric velocity field is shown on a small area.
+Finally, synthetic images from a high-resolution physico-biogeochemical coupled model of process and a high-resolution realistic model of the Solomon sea are used to assess the error associated with the inversion and its efficiency.
+
